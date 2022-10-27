@@ -1,0 +1,246 @@
+/* nav bar--------------- */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.navbar>img{
+    height: 2rem;
+    width: 7rem;
+    margin-top: 0.5rem;
+    margin-right: 6rem;
+    margin-left: 6rem ;
+}
+
+.input {
+    background-color: rgb(243, 239, 239);
+    border: 0rem;
+    font-weight:100;
+    border-radius: 0.5rem;
+    width: 16rem;
+    height:2.3rem;
+    font-size:1rem;
+  }
+
+
+
+
+
+
+  /* side nav bar------------------- */
+  .sidenav{
+      display: flex;
+      justify-content:center;
+      margin-top: 0.5rem;
+  }
+  .sidenav>img{
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-right: 1.8rem;
+  }
+
+
+
+
+
+
+  /* Line below nav bar */
+  hr{
+    border-top:0px;
+    background-color:rgb(224, 221, 221)
+}
+
+
+
+
+
+
+/* Status bar  */
+.statusbar{
+    display: flex;
+    justify-content: space-around;
+    border: 1px rgb(211, 206, 206) solid;
+    width: 50vw;
+    margin-left: 13vw;
+    margin-top: 5vh;
+    border-radius: 0.2rem;
+    margin-right: 0ch;
+}
+.statusbar img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px rgb(236, 32, 76) solid;
+    padding: 2px;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.statusbar p{
+    margin-top: 0;
+    color: rgb(61, 58, 58);
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.maincontent{
+    display: flex;   
+}
+
+.rightpart{
+    width: 25vw;
+    height: 80vh;
+    margin-top: 9vh;
+    margin-left: 2vw;
+    /* border: 3px black solid; */
+}
+.rightpart>.myid>.myidleft>img{
+    height:4rem;
+    width:4rem;
+    margin-right:1vw;
+}
+.rightpart>p{
+    color: rgb(153, 151, 151);
+}
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: rgb(143, 139, 139);
+    font-weight: 700;
+}
+
+.posts{
+    height: 173vh;
+    width: 50vw;
+   border: 3px black solid;
+   margin-left: 13vw; 
+   margin-top: 5vh;
+   border: 1px rgb(211, 206, 206) solid;
+   border-radius: 0.2rem;
+}
+.myid{
+    display: flex;
+    justify-content: space-between;
+}
+.myidleft{
+    display: flex;
+}
+
+.myidright>a{
+    text-decoration-line: none;
+    color:rgb(15, 90, 252);
+    font-size:0.9rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.myidright{
+    margin-top: 2vh;
+}
+
+
+
+
+.othersid{
+    display: flex;
+    justify-content: space-between;
+}
+.othersidleft{
+    display: flex;
+}
+
+.othersidright>a{
+    text-decoration-line: none;
+    color:rgb(15, 90, 252);
+    font-size:0.9rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.othersidright{
+    margin-top: 2vh;
+}
+.rightpart>.othersid>.othersidleft>img{
+    height:2.5rem;
+    width:2.5rem;
+    margin-right:1vw;
+}
+.othersidleft>p{
+    margin-top: 0;
+}
+.rightlast>p{
+    font-size: 0.8rem;
+    color: rgb(167, 165, 165);
+}
+.postsId{
+    display: flex;
+    margin-top: 1.5vh;
+}
+.postsId>img{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+    border: 3px rgb(236, 32, 76) solid;
+    padding: 2px;
+    margin-left: 1.5vw;
+}
+#threedots{
+    margin-left: 31vw;
+}
+.postsId>p{
+    margin-left:1vw;
+}
+.posts>img{
+    width: 50vw;
+    margin-top: 2vh;
+}
+.postlikecomment{
+    display: flex;
+    justify-content:space-between;
+}
+.LikeComment{
+    display: flex;
+}
+.LikeComment>img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left:1.5vw ;
+}
+
+a[src="images/bookmark.png"]{
+    margin-left: 30vw;
+}
+.bookmark>img{
+    height: 1.7rem;
+    width: 1.5rem;
+    margin-right: 2vw;
+}
+.like{
+    font-weight: 550;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.9rem;
+    margin-left: 1.5vw;
+    margin-bottom:0vh;
+}
+.postdis{
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}   
+.postdis>span{
+    color: gray;
+}
+.posttime{
+    font-size: 0.75rem;
+}
+.addcomment span{
+    color: rgb(42, 154, 219);
+}
+.addcomment>p{
+    color:grey;
+    margin-left: 1.5vw;
+}
